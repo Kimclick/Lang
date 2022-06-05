@@ -1,0 +1,36 @@
+body {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+div#sales {
+	background-color: #b5cce3;
+	-webkit-border-radius: 3px;
+	border-radius: 6px;
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+	border: 3px solid #005181;
+}
+div.saleItem {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #6c7e80;
+	padding: 10px;
+}
+div.saleItem:nth-child(2n) {
+	background-color: #113a23;
+}
+div.saleItem:nth-child(2n-1) {
+	background-color: #7cb6a7;
+}
+div.saleItem:first-child {
+	-webkit-border-top-left-radius: 36px;
+	-webkit-border-top-right-radius: 36px;
+	border-top-left-radius: 36px;
+	border-top-right-radius: 36px;
+}
+div.saleItem:last-child {
+	-webkit-border-bottom-left-radius: 36px;
+	-webkit-border-bottom-right-radius: 36px;
+	border-bottom-left-radius: 36px;
+	border-bottom-right-radius: 36px;
+}
+
